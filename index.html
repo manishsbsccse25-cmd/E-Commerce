@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmFresh - Your Local Produce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <a href="#" id="logo">FarmFresh 🌿</a>
+            <nav>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-list" id="nav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#products">Shop</a></li>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="cart-icon">
+                🛒 <span id="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Straight from the Farm</h1>
+            <p>Fresh, organic, and locally sourced. Taste the difference.</p>
+            <a href="#products" class="cta-button">Shop All Produce</a>
+        </div>
+    </section>
+
+    <section id="products" class="container">
+        <h2>Our Freshest Picks</h2>
+        <div class="product-grid">
+            
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200/4CAF50/FFFFFF?text=Tomatoes" alt="Organic Tomatoes">
+                <div class="product-info">
+                    <h3>Organic Tomatoes</h3>
+                    <p class="price">$4.99 / lb</p>
+                    <button class="add-to-cart-btn" data-product="Organic Tomatoes" data-price="4.99">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200/FF9800/FFFFFF?text=Carrots" alt="Crunchy Carrots">
+                <div class="product-info">
+                    <h3>Crunchy Carrots</h3>
+                    <p class="price">$2.99 / bunch</p>
+                    <button class="add-to-cart-btn" data-product="Crunchy Carrots" data-price="2.99">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200/388E3C/FFFFFF?text=Kale" alt="Leafy Green Kale">
+                <div class="product-info">
+                    <h3>Leafy Green Kale</h3>
+                    <p class="price">$3.49 / bunch</p>
+                    <button class="add-to-cart-btn" data-product="Leafy Green Kale" data-price="3.49">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200/E91E63/FFFFFF?text=Strawberries" alt="Sweet Strawberries">
+                <div class="product-info">
+                    <h3>Sweet Strawberries</h3>
+                    <p class="price">$5.99 / pint</p>
+                    <button class="add-to-cart-btn" data-product="Sweet Strawberries" data-price="5.99">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 FarmFresh. All rights reserved.</p>
+            <p>Follow us: 
+                <a href="#">Facebook</a> | 
+                <a href="#">Instagram</a> | 
+                <a href="#">Twitter</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
